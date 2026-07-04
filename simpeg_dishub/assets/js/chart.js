@@ -1,0 +1,2 @@
+new Chart(document.getElementById('barChart'),{type:'bar',data:{labels:['Minggu 1','Minggu 2','Minggu 3','Minggu 4','Minggu 5'],datasets:[{label:'Kehadiran',data:[92,96,97,94,96],borderWidth:1}]},options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,ticks:{callback:v=>v+'%'}}}}});
+new Chart(document.getElementById('doughnutChart'),{type:'doughnut',data:{labels:['Cuti Tahunan 8 (53%)','Cuti Sakit 4 (27%)','Cuti Izin 3 (20%)'],datasets:[{data:[8,4,3]}]},options:{plugins:{legend:{position:'right'},title:{display:true,text:'Total 15'}}}});
